@@ -6,8 +6,8 @@ Copyright (c) 2018
 
 
 #include <iostream>
-#include <ctime>
 #include "HeroeFactory.h"
+#include "Randomizer.h"
 #include "Hero.h"
 
 void StartUp() {
@@ -32,14 +32,14 @@ void StartUp() {
 	//mersiel = nullptr;
 
 
-
+	Randomizer  random;
+	int znach = random.Random(mersiel.charactes,CheckBy::strength);
+	cout << znach;
 
 	mersiel.name = "Vasyia2";
 	delete &mersiel;
 
-	srand(time(0)); // автоматическая рандомизация
-	cout << "1-random number = " << 1 + rand() % 3 << endl; // первый запуск генератора случайных чисел
-
+	
 
 }
 

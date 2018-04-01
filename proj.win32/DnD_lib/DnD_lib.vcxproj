@@ -111,14 +111,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Calculator.h" />
     <ClInclude Include="Hero.h" />
-    <ClInclude Include="HeroCharactes.h" />
+    <ClInclude Include="HeroeSkills.h" />
     <ClInclude Include="HeroeFactory.h" />
+    <ClInclude Include="Randomizer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Hero.cpp" />
-    <ClCompile Include="HeroCharactes.cpp" />
+    <ClCompile Include="HeroeSkills.cpp" />
     <ClCompile Include="HeroeFactory.cpp" />
+    <ClCompile Include="Randomizer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

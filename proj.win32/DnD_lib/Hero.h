@@ -1,5 +1,5 @@
 #pragma once
-#include "HeroCharactes.h"
+#include "HeroeSkills.h"
 #include <string>
 using namespace std;
 
@@ -8,7 +8,7 @@ class Hero
 public:
 	string name;
 
-	HeroCharactes charactes;
+	HeroeSkills charactes;
 
 	Hero();
 	Hero(const Hero &obj);

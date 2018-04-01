@@ -10,7 +10,7 @@ Hero& HeroeFactory::CreateMersiel()
 {
 	Hero* mersiel = new Hero();
 	mersiel->name = "Μεπρθελό";
-	mersiel->charactes.strength = 2;
+	mersiel->charactes.strength = 8;
 	
 	return *mersiel;
 
