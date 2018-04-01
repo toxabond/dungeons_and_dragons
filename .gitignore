@@ -8,6 +8,12 @@
 **/proj.marmalade/build_*
 **/proj.win32/Debug_*/
 **/proj.win32/Release_*/
+**/proj.win32/DnD_console/Debug/
+**/proj.win32/DnD_lib/Debug/
+**/proj.win32/Debug/
+
+
+
 proj.win32/.vs/
 *.ipch
 **/build-proj*
