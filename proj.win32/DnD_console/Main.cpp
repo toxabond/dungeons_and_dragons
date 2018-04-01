@@ -6,7 +6,8 @@ Copyright (c) 2018
 
 
 #include <iostream>
-#include <HeroeFactory.h> 
+#include <ctime>
+#include "HeroeFactory.h"
 #include "Hero.h"
 
 void StartUp() {
@@ -35,6 +36,9 @@ void StartUp() {
 
 	mersiel.name = "Vasyia2";
 	delete &mersiel;
+
+	srand(time(0)); // автоматическая рандомизация
+	cout << "1-random number = " << 1 + rand() % 3 << endl; // первый запуск генератора случайных чисел
 
 
 }
