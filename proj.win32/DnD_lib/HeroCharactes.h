@@ -2,6 +2,10 @@
 class HeroCharactes
 {
 public:
+	int stremgth;
+	int dexterity;
+
+
 	HeroCharactes();
 	~HeroCharactes();
 };
