@@ -11,6 +11,7 @@ public:
 	HeroCharactes charactes;
 
 	Hero();
+	Hero(const Hero &obj);
 	~Hero();
 };
 

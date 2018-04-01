@@ -6,20 +6,11 @@ Copyright (c) 2018
 
 
 #include <iostream>
-
+#include <HeroeFactory.h> 
 #include "Hero.h"
 
-
-
-
-
-
-
-
-int main(int argc, char* argv[])
-{
-	setlocale(LC_ALL, "Russian");
-
+void StartUp() {
+	/*
 	Hero xarsk;
 	xarsk.name = "Харск";
 
@@ -32,18 +23,31 @@ int main(int argc, char* argv[])
 	//Hero& _mersiel2 = xarsk;
 	//_mersiel2.name = "Харск2";
 
+	*/
+	HeroeFactory creator;
+	Hero& mersiel = creator.CreateMersiel();
+	mersiel.name = "Vasyia";
+	//delete mersiel;
+	//mersiel = nullptr;
 
 
-	
-	delete mersiel;
-	mersiel = nullptr;
-	
-	
-	
+
+
+	mersiel.name = "Vasyia2";
+	delete &mersiel;
+
+
+}
+
+
+
+
+
+
+int main(int argc, char* argv[])
+{
+	setlocale(LC_ALL, "Russian");
+	StartUp();
 	system("PAUSE");
-	
-
-
-
 
 }

@@ -2,10 +2,12 @@
 class HeroCharactes
 {
 public:
-	int stremgth;
+	int strength;
 	int dexterity;
-
-
+	int constitution;
+	int itelligence;
+	int wisdom;
+	int charisma;
 	HeroCharactes();
 	~HeroCharactes();
 };

@@ -21,12 +21,18 @@
     <ClInclude Include="HeroCharactes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HeroeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HeroCharactes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroeFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
