@@ -27,17 +27,23 @@ void StartUp() {
 	*/
 	HeroeFactory creator;
 	Hero& mersiel = creator.CreateMersiel();
-	mersiel.name = "Vasyia";
+	//mersiel.name = "Vasyia";
+
+	Hero& xarsk = creator.CreateXarsk();
+
+
 	//delete mersiel;
 	//mersiel = nullptr;
 
-
+/*
+	//вызов рандомайзера с атрибутом сила
 	Randomizer  random;
 	int znach = random.Random(mersiel.charactes,CheckBy::strength);
 	cout << znach;
-
-	mersiel.name = "Vasyia2";
+*/
+//	mersiel.name = "Vasyia2";
 	delete &mersiel;
+	delete &xarsk;
 
 	
 

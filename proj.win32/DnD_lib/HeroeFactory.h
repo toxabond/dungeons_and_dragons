@@ -7,6 +7,6 @@ class HeroeFactory
 public:
 	HeroeFactory();
 	Hero& CreateMersiel();
-	Hero CreateXarsk();
+	Hero& CreateXarsk();
 	~HeroeFactory();
 };
