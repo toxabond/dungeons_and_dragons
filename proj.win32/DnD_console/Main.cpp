@@ -39,12 +39,12 @@ void StartUp() {
 	//delete mersiel;
 	//mersiel = nullptr;
 
-/*
-	//вызов рандомайзера с атрибутом сила
+
+	//вызов рандомайзера с CheckBy::атрибутом
 	Randomizer  random;
-	int znach = random.Random(mersiel.charactes,CheckBy::strength);
+	int znach = random.Random(ezren.charactes,CheckBy::intelegence);
 	cout << znach;
-*/
+
 //	mersiel.name = "Vasyia2";
 
 	delete &mersiel;

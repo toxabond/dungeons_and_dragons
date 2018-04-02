@@ -17,6 +17,21 @@ int Randomizer::Random(HeroeSkills & skills, CheckBy check_by)
 		case CheckBy::strength:
 			value = skills.strength;
 			break;
+		case CheckBy::dexterity:
+			value = skills.dexterity;
+			break;
+		case CheckBy::constitution:
+			value = skills.constitution;
+			break;
+		case CheckBy::intelegence:
+			value = skills.itelligence;
+			break;
+		case CheckBy::wisdom:
+			value = skills.wisdom;
+			break;
+		case CheckBy::charisma:
+			value = skills.charisma;
+			break;
 		default:
 		break;
 	}
