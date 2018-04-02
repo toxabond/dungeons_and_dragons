@@ -27,9 +27,13 @@ void StartUp() {
 	*/
 	HeroeFactory creator;
 	Hero& mersiel = creator.CreateMersiel();
+	Hero& xarsk = creator.CreateXarsk();
+	Hero& ezren = creator.CreateEzren();
+
+	
 	//mersiel.name = "Vasyia";
 
-	Hero& xarsk = creator.CreateXarsk();
+	
 
 
 	//delete mersiel;
@@ -42,9 +46,11 @@ void StartUp() {
 	cout << znach;
 */
 //	mersiel.name = "Vasyia2";
+
 	delete &mersiel;
 	delete &xarsk;
-
+	delete &ezren;
+	
 	
 
 }

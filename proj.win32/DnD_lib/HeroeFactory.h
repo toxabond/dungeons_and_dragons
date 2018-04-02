@@ -8,5 +8,6 @@ public:
 	HeroeFactory();
 	Hero& CreateMersiel();
 	Hero& CreateXarsk();
+	Hero& CreateEzren();
 	~HeroeFactory();
 };
